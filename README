@@ -1,0 +1,18 @@
+TerminalHere - Finder Contextual Menu Plugin
+============================================
+
+1. Installing
+=============
+
+From binary:
+- Copy TerminalHere.plugin to "~/Library/Contextual Menu Items" or 
+  "/Library/Contextual Menu Items" (for all users).
+
+From source:
+- Create an XCode project from the existing source.
+- Build the project in XCode.
+- Copy the resulting .bundle file in "~/Library/Contextual Menu Items" or
+  "/Library/Contextual Menu Items" and rename it to TerminaHere.plugin.
+- Logout and login or restart Finder for the change to take effect. 
+
+Built with XCode 3.1.1
