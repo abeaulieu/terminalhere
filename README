@@ -7,6 +7,7 @@ TerminalHere - Finder Contextual Menu Plugin
 From binary:
 - Copy TerminalHere.plugin to "~/Library/Contextual Menu Items" or 
   "/Library/Contextual Menu Items" (for all users).
+- Logout and login or restart Finder for the change to take effect.
 
 From source:
 - Create an XCode project from the existing source.
@@ -16,3 +17,17 @@ From source:
 - Logout and login or restart Finder for the change to take effect. 
 
 Built with XCode 3.1.1
+
+2. Using
+========
+
+In the Finder, right-click on a folder and select More.
+Click on Open Terminal Here and a new Terminal Window will open and cd to the
+selected folder.
+
+3. Known Issues
+===============
+
+- If Terminal is not running, the application will start Terminal and open a
+  new Terminal window over the default window on startup.
+
